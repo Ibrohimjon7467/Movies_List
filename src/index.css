@@ -1,0 +1,37 @@
+/* Taiwin CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background: #10141E;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* Styles */
+::-webkit-scrollbar {
+    width: 0;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+.input input {
+    width: 100%;
+}
+
+.input input:focus{
+    border-bottom: 1px solid white;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
